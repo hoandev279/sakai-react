@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-export const getCustomersMedium = () => {
-    return axios.get('assets/demo/data/customers-medium.json')
+export const getCrawlFb = () => {
+    return axios.get('assets/demo/data/crawl.json')
         .then(res => res.data.data);
 }
 
