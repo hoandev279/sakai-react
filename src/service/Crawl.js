@@ -5,7 +5,7 @@ export const getCrawlFb = () => {
         .then(res => res.data.data);
 }
 
-export const getCustomersLarge = () => {
-    return axios.get('assets/demo/data/customers-medium.json')
+export const getPosts = () => {
+    return axios.get('assets/demo/data/posts.json')
         .then(res => res.data.data);
 }
